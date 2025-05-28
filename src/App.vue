@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router'
 
 <template>
   <div
-    class="flex flex-col min-h-screen w-full bg-[url(../../public/image-background.webp)] bg-cover bg-no-repeat font-medium"
+    class="flex flex-col min-h-screen w-full bg-[url(/image-background.webp)] bg-cover bg-no-repeat font-medium"
   >
     <RouterView />
   </div>
