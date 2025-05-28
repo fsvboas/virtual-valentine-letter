@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-const isEnvelopeOpen = ref(false)
-const isLetterLifted = ref(false)
+const isEnvelopeOpen = ref<boolean>(false)
+const isLetterLifted = ref<boolean>(false)
 
 const toggleEnvelope = () => {
   if (!isEnvelopeOpen.value) {
