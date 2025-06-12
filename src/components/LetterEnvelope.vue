@@ -55,7 +55,7 @@ const handleClick = () => {
         isLetterLifted ? '-mt-20' : '0',
       ]"
     >
-      <p class="text-justify p-4">
+      <p class="text-justify p-4 max-md:text-sm">
         Yasmin,
         <br />
         <br />
