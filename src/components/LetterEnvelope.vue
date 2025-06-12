@@ -23,7 +23,7 @@ const handleClick = () => {
 
 <template>
   <div
-    class="bg-black/90 w-full h-full absolute z-60 flex items-center justify-center"
+    class="bg-black/90 w-screen h-screen absolute z-60 flex items-center justify-center"
     v-if="letterModalStore.isModalOpen === true"
   >
     <Letter />
